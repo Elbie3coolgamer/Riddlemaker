@@ -1,0 +1,17 @@
+print ("Riddle Maker")
+word = input("Your word: ")
+rel = input("What word best relates to your answer? ")
+sound = input("What word sounds like your word? ")
+clues = input("What is a clue for your word? ")
+final = ("Riddle: What is said to be like " + rel + " and sounds like " + sound + "?")
+bin = input("Press enter to see your riddle!")
+print (final)
+clue = input("Would you like a clue? ")
+birb = ("Yes")
+borb = ("yes")
+if clue == birb:
+  print("Clue:",clues)
+if clue == borb:
+  print("Clue:",clues)
+cont = input("Click enter to see the answer!")
+print ("Answer:",word)
